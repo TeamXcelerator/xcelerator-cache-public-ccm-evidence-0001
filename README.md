@@ -17,9 +17,25 @@ CCM diagnostics, cross-checks, validation records, and certificates.
 Artifact kinds assigned to this family:
 
 - `ccm_convergence_diagnostics`
+- `ccm_root_conditioning_analysis`
+- `ccm_prime_power_response_analysis`
+- `ccm_u_flow_response_analysis`
+- `ccm_sector_gap`
+- `ccm_sector_gap_certificate`
+- `ccm_post_discovery_comparison`
 - `ccm_cross_check_record`
 - `ccm_validation_record`
 - `ccm_certificate_bundle`
+
+The v0.14.1 maximum capture level produces root-conditioning analysis without
+enabling interval certification. Prime-power response, complete `u`-flow
+response, and finite sector-gap certification remain explicit opt-ins. The
+sector-gap certificate proves full-matrix positivity independently; its parity
+and sector-ordering conclusions retain their stated centrosymmetry premise.
+
+This shard's routing metadata is synchronized with Xcelerator Toolkit v0.14.1.
+Listing a kind permits validated publication; it does not assert that an
+artifact of that kind is currently present.
 
 ## Layout
 
