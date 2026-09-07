@@ -51,3 +51,14 @@ The Xcelerator cache registry is the authority for shard routing.
 ## Trademarks
 
 "Team Xcelerator Inc." is a registered trademark of Team Xcelerator Inc.
+
+## Toolkit v0.15.0 additions
+
+- `ccm_prefix_analysis`: authenticated parent-derived prefix moments, vectors, and checked exports.
+- `ccm_retained_reduction_check`: budgeted stable reduction and numerical residual diagnostics of retained point entries.
+
+Both kinds are registered in the public and private evidence families. A public
+child requires public source manifests and dependency closure. These are
+computed diagnostics; registration and successful numerical checks do not
+certify the matrix construction or any infinite-dimensional paper claim.
+No research payloads are added by this metadata update.
