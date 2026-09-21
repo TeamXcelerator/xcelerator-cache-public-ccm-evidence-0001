@@ -17,7 +17,10 @@
     "ccm_indexed_transform_analysis",
     "ccm_operator_energy_analysis",
     "ccm_root_band_analysis",
-    "ccm_stabilization_analysis"
+    "ccm_stabilization_analysis",
+    "ccm_compactness_analysis",
+    "ccm_directional_response_analysis",
+    "ccm_resolution_budget_analysis"
   ],
   "artifact_layout": "artifacts/{artifact_kind}/{logical_key}/{parameter_digest}",
   "default_branch": "main",
