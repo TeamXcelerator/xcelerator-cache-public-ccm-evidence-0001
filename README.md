@@ -71,3 +71,19 @@ selected observation bytes and are private-only. Both registries provide the
 shared shape schemas; only the private evidence catalog admits these kinds.
 Source-only prefix and retained-reduction diagnostics retain their existing
 public-source eligibility rules. Schema registration does not publish payloads.
+
+## Retained state geometry
+
+`ccm_state_geometry_analysis` records source-bound normalization, spatial moments,
+spatial energy tails, and sampled sign diagnostics for a retained CCM state.
+Its [payload schema](schemas/ccm-state-geometry-analysis-v1.schema.json) describes computed
+measurements, not a ground-state or global-sign certificate. New children retain
+exact parent dependencies; registration does not replace historical payloads.
+
+## v0.15.1 research records
+
+Shared payload schemas for retained research observations are in `schemas/`.
+The declared artifact kinds in `cache-repository.json` define this shard's
+admitted publication scope. Registration is additive: historical payloads and
+indexes retain their original meaning. Computed observations and externally
+reported material are not convergence or ground-state certificates.
